@@ -29,6 +29,7 @@ modules:
       - lightdm
       #build stuff
       - lightdm-gobject-devel
+      - gstreamer1-plugins-base-devel
       - sqlite-devel
       - libX11-devel
       - xfce4-panel-devel
