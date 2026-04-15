@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Labwc (with XFCE)
+Comment=XFCE running under labwc
+Exec=labwc
+Type=Application
+DesktopNames=XFCE
