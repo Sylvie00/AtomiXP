@@ -40,6 +40,6 @@ modules:
       enabled:
         - sddm
 
-  - type: script
-    scripts:
-      - xp.sh
+ # - type: script
+ #   scripts:
+ #     - xp.sh
