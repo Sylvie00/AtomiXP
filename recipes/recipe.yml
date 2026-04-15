@@ -28,8 +28,6 @@ modules:
       - wlr-randr
       - network-manager-applet
       - pavucontrol
-      - mesa-va-drivers-freeworld
-      - mesa-vdpau-drivers-freeworld
 
   - type: files
     files:
