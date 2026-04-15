@@ -34,6 +34,7 @@ modules:
       - cmake
       - gcc
       - fakeroot
+      - glib2-devel
       - rpmdevtools
 
   - type: files
