@@ -25,18 +25,17 @@ modules:
       - network-manager-applet
       - thunar
       - thunar-archive-plugin
-      - network-manager-applet
       - lightdm
       - lightdm-gobject-devel
+      - pavucontrol
+      - fastfetch
+      #build tools for xp theme
       - libX11-devel
       - xfce4-panel-devel
       - libxfce4ui-devel
       - libxfce4util-devel
-      - python3-pillow
       - gtk-murrine-engine
       - gtk2-engines
-      - pavucontrol
-      - fastfetch
       - cmake
       - gcc
       - fakeroot
@@ -45,6 +44,29 @@ modules:
       - gtk3-devel
       - gstreamer1-devel
       - sqlite
+      - sqlite-devel
+      - libxml2-devel
+      - glib2-devel
+      - libzip-devel
+      - libcanberra-devel
+      - libcanberra-gtk3
+      - upower-devel
+      - NetworkManager-libnm-devel
+      - webkit2gtk4.1-devel
+      - libsoup3-devel
+      - pango-devel
+      - cairo-devel
+      - gdk-pixbuf2-devel
+      - libXtst-devel
+      - libXres-devel
+      - libXcomposite-devel
+      - libXdamage-devel
+      - xorg-x11-server-utils
+      - xorg-x11-font-utils
+      - python3-pillow
+      - python3-packaging
+      - rubygem-sass
+      - gettext-devel
 
   - type: files
     files:
