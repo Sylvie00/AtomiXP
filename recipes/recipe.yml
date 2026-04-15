@@ -12,7 +12,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: rpm-ostree
     install:
-      - xfce-session-wayland
+      - xfce4-wayland-session
       - xfce4-session
       - xfce4-panel
       - xfdesktop
