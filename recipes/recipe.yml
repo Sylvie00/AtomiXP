@@ -60,6 +60,15 @@ modules:
       - xfce4-settings
       - desktop-file-utils
       - gtk-doc
+      - libcanberra-devel
+      - xcursorgen
+      - python3-virtualenv
+      - rubygem-sass
+      - webkit2gtk4.1-devel
+      - libzip-devel
+      - NetworkManager-libnm-devel
+      - upower-devel
+      - pulseaudio-libs-devel
 
   - type: files
     files:
