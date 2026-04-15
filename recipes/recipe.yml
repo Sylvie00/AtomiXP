@@ -27,57 +27,23 @@ modules:
       - thunar-archive-plugin
       - network-manager-applet
       - lightdm
-      #build stuff
-      - lightdm-gobject-devel
-      - gstreamer1-plugins-base-devel
-      - sqlite-devel
-      - libX11-devel
-      - xfce4-panel-devel
-      - libxfce4ui-devel
-      - libxfce4util-devel
-      - python3-pillow
+      - lightdm-gtk-greeter
       - gtk-murrine-engine
       - gtk2-engines
-      - pavucontrol
-      - fastfetch
-      - cmake
-      - gcc
-      - fakeroot
-      - glib2-devel
-      - rpmdevtools
-      - gtk3-devel
-      - gstreamer1-devel
-      - sqlite
-      - make
-      - pkg-config
-      - gettext
-      - intltool
-      - xfce4-dev-tools
-      - libwnck3-devel
-      - garcon-devel
-      - exo-devel
-      - libxfce4windowing-devel
+      - xfwm4-themes
       - xfce4-settings
-      - desktop-file-utils
-      - gtk-doc
-      - libcanberra-devel
-      - xcursorgen
-      - python3-virtualenv
-      - rubygem-sass
-      - webkit2gtk4.1-devel
-      - libzip-devel
-      - NetworkManager-libnm-devel
-      - upower-devel
-      - pulseaudio-libs-devel
+      - adwaita-gtk2-theme
+      - xfce4-whiskermenu-plugin
+
 
   - type: files
     files:
       - source: system
         destination: /
 
-  - type: script
-    scripts:
-      - xfceconf.sh
+ # - type: script
+ #   scripts:
+ #     - xfceconf.sh
       
   - type: systemd
     system:
