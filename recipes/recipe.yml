@@ -26,7 +26,8 @@ modules:
       - thunar
       - thunar-archive-plugin
       - network-manager-applet
-      - sddm
+      - lightdm
+      - lightdm-gobject
       - gtk-murrine-engine
       - gtk2-engines
       - pavucontrol
@@ -51,4 +52,4 @@ modules:
   - type: systemd
     system:
       enabled:
-        - sddm
+        - lightdm
