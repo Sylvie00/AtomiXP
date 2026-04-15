@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: atomixp
 # description will be included in the image's metadata
-description: Experimental bluebuild image with XFCE and labwc aiming to create an "XP" like experience.
+description: Experimental bluebuild image with XFCE aiming to create an "XP" like experience.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
@@ -12,12 +12,13 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: rpm-ostree
     install:
+      - xfce-session-wayland
       - xfce4-session
       - xfce4-panel
       - xfdesktop
       - xfwm4
-      - xfce4-settings
       - xfconf
+      - xorg-x11-server-Xwayland
       - network-manager-applet
       - thunar
       - thunar-archive-plugin
