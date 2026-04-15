@@ -19,6 +19,7 @@ modules:
       - xfwm4
       - xfconf
       - xorg-x11-server-Xwayland
+      - xorg
       - network-manager-applet
       - thunar
       - thunar-archive-plugin
