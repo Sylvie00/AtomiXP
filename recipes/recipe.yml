@@ -44,6 +44,7 @@ modules:
       - rpmdevtools
       - gtk3-devel
       - gstreamer1-devel
+      - sqlite
 
   - type: files
     files:
