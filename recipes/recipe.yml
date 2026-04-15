@@ -11,6 +11,9 @@ image-version: latest # latest is also supported if you want new updates ASAP
 
 modules:
   - type: rpm-ostree
+    repos:
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
     install:
       - xfce4-session
       - xfce4-panel
@@ -18,12 +21,20 @@ modules:
       - xfwm4
       - xfce4-settings
       - xfconf
+      - network-manager-applet
+      - thunar
+      - thunar-archive-plugin
+      - network-manager-applet
       - sddm
       - gtk-murrine-engine
       - gtk2-engines
       - pavucontrol
       - fastfetch
-
+      - steam
+      - steam-devices
+      - gamemode
+      - mesa-va-drivers-freeworld
+      - mesa-vdpau-drivers-freeworld
 
   - type: files
     files:
