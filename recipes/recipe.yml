@@ -16,8 +16,6 @@ modules:
       - labwc
       - wlroots
       - xorg-x11-server-Xwayland
-      
-      # XFCE Bits
       - xfce4-panel
       - xfdesktop
       - xfce4-settings
@@ -25,21 +23,24 @@ modules:
       - thunar
       - thunar-archive-plugin
       - xfconf
-      
-      # dm
       - sddm
-      
-      # extra utils
       - swaybg
       - wlr-randr
       - network-manager-applet
       - pavucontrol
+      - mesa-va-drivers-freeworld
+      - mesa-vdpau-drivers-freeworld
 
-  - type: systemd
-    system:
-      enabled:
-        - sddm
+  - type: files
+    files:
+      - source: system
+        destination: /
 
   - type: script
     scripts:
       - xfceconf.sh
+      
+  - type: systemd
+    system:
+      enabled:
+        - sddm
