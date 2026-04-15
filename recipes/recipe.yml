@@ -36,6 +36,8 @@ modules:
       - fakeroot
       - glib2-devel
       - rpmdevtools
+      - gtk3-devel
+      - gstreamer1-devel
 
   - type: files
     files:
