@@ -15,7 +15,7 @@ modules:
       #labwc bits
       - labwc
       - wlroots
-      - xwayland
+      - xorg-x11-server-Xwayland
       
       # XFCE Bits
       - xfce4-panel
