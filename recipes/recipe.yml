@@ -12,14 +12,15 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: rpm-ostree
     install:
-      - xfce4-wayland-session
       - xfce4-session
       - xfce4-panel
       - xfdesktop
       - xfwm4
       - xfconf
-      - xorg-x11-server-Xwayland
       - xorg-x11-server-Xorg
+      - xorg-x11-xinit
+      - xorg-x11-drv-amdgpu
+      - xorg-x11-drv-libinput
       - network-manager-applet
       - thunar
       - thunar-archive-plugin
