@@ -27,7 +27,12 @@ modules:
       - thunar-archive-plugin
       - network-manager-applet
       - lightdm
-      - lightdm-gobject
+      - lightdm-gobject-devel
+      - libX11-devel
+      - xfce4-panel-devel
+      - libxfce4ui-devel
+      - libxfce4util-devel
+      - python3-pillow
       - gtk-murrine-engine
       - gtk2-engines
       - pavucontrol
