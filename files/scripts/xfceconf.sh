@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Applying default settings..."
-
-mkdir -p /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
+# Make sure the labwc autostart is executable
+if [ -f /etc/skel/.config/labwc/autostart ]; then
+    chmod +x /etc/skel/.config/labwc/autostart
+fi
