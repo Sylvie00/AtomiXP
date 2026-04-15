@@ -12,22 +12,18 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: rpm-ostree
     install:
-      #labwc bits
-      - labwc
-      - wlroots
-      - xorg-x11-server-Xwayland
+      - xfce4-session
       - xfce4-panel
       - xfdesktop
+      - xfwm4
       - xfce4-settings
-      - xfce4-terminal
-      - thunar
-      - thunar-archive-plugin
       - xfconf
       - sddm
-      - swaybg
-      - wlr-randr
-      - network-manager-applet
+      - gtk-murrine-engine
+      - gtk2-engines
       - pavucontrol
+      - fastfetch
+
 
   - type: files
     files:
