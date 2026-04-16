@@ -63,15 +63,3 @@ modules:
       enabled:
         - sddm
         - xptc-apply
-
-  - type: default-flatpaks
-    notify: true
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      install:
-        - com.valvesoftware.Steam
-        - com.usebottles.bottles
-        - com.heroicgameslauncher.hgl
-        - com.vysp3r.ProtonPlus
-        - com.github.tchx84.Flatseal
