@@ -12,18 +12,23 @@ image-version: 43
 modules:
   - type: rpm-ostree
     install:
-      - xfce4-session
-      - xfce4-panel
-      - xfdesktop
-      - xfwm4
-      - xfconf
-      - xfce4-terminal
-      - xorg-x11-drv-amdgpu
-      - xorg-x11-drv-libinput
-      - network-manager-applet
-      - thunar
-      - thunar-archive-plugin
-      - lightdm
+        - xfce4-session
+        - xfce4-panel
+        - xfdesktop
+        - xfwm4
+        - xfconf
+        - xorg-x11-server-xorg
+        - xorg-x11-xinit
+        - xorg-x11-drv-amdgpu
+        - xorg-x11-drv-libinput
+        - network-manager-applet
+        - thunar
+        - thunar-archive-plugin
+        - sddm
+        - gtk-murrine-engine
+        - gtk2-engines
+        - pavucontrol
+        - fastfetch
 
 
 # - type: files
@@ -38,4 +43,4 @@ modules:
   - type: systemd
     system:
       enabled:
-        - lightdm
+        - sddm
