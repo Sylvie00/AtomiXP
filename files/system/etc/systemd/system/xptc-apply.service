@@ -1,0 +1,11 @@
+[Unit]
+Description=AtomiXP theme apply for existing users
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/applytheme.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

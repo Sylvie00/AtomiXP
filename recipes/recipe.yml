@@ -67,6 +67,7 @@ modules:
     system:
       enabled:
         - sddm
+        - xptc-apply
 
   - type: default-flatpaks
     notify: true
