@@ -31,10 +31,10 @@ modules:
         - fastfetch
 
 
-# - type: files
-#   files:
-#     - source: system
-#       destination: /
+  - type: files
+    files:
+     - source: system
+       destination: /
 
 #  - type: script
 #    scripts:
