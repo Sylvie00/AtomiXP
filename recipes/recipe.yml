@@ -44,9 +44,9 @@ modules:
      - source: system
        destination: /
 
-#  - type: script
-#    scripts:
-#      - xfceconf.sh
+  - type: script
+    scripts:
+      - os-info.sh
       
   - type: systemd
     system:
