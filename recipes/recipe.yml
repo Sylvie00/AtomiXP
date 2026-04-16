@@ -18,31 +18,22 @@ modules:
       - xfwm4
       - xfconf
       - xfce4-terminal
-      - xorg-x11-server-Xorg
-      - xorg-x11-xinit
+      - xorg-x11-init
       - xorg-x11-drv-amdgpu
       - xorg-x11-drv-libinput
+      - network-manager-applet
       - thunar
       - thunar-archive-plugin
-      - network-manager-applet
-      - lightdm
-      - lightdm-gtk-greeter
-      - gtk-murrine-engine
-      - gtk2-engines
-      - xfwm4-themes
-      - xfce4-settings
-      - adwaita-gtk2-theme
-      - xfce4-whiskermenu-plugin
 
 
-  - type: files
-    files:
-      - source: system
-        destination: /
+# - type: files
+#   files:
+#     - source: system
+#       destination: /
 
- #- type: script
- #   scripts:
- #     - xfceconf.sh
+#  - type: script
+#    scripts:
+#      - xfceconf.sh
       
   - type: systemd
     system:
