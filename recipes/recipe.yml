@@ -45,11 +45,6 @@ modules:
         - qt6ct
         - wine-tahoma-fonts
         - menulibre
-        - gstreamer1-plugins-bad-free
-        - gstreamer1-plugins-bad-freeworld
-        - gstreamer1-plugins-ugly
-        - gstreamer1-plugin-libav
-        - ffmpeg
 
 
 
