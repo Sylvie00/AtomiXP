@@ -18,7 +18,6 @@ modules:
       - xfwm4
       - xfconf
       - xfce4-terminal
-      - xorg-x11-init
       - xorg-x11-drv-amdgpu
       - xorg-x11-drv-libinput
       - network-manager-applet
