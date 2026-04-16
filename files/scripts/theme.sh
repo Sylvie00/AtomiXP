@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -xueo pipefail
 
 dnf5 install -y $(cat packages/xfce-winxp-tc/build-deps.txt)
