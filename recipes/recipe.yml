@@ -27,7 +27,6 @@ modules:
       - thunar-archive-plugin
       - network-manager-applet
       - lightdm
-      - lightdm-gtk-greeter
       - gtk-murrine-engine
       - gtk2-engines
       - xfwm4-themes
