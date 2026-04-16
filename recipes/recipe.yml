@@ -29,6 +29,14 @@ modules:
         - gtk2-engines
         - pavucontrol
         - fastfetch
+        - xfce4-terminal
+        - adwaita-gtk2-theme
+        - alsa-utils
+        - blueman
+        - gtk-xfce-engine
+        - xfce4-about
+        - xfce4-appfinder
+        - xfce4-settings
 
 
   - type: files
