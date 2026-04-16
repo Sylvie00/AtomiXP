@@ -27,11 +27,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
 
 ## Credits (WIP)
-[RedmondXP](https://github.com/matthewmx86/RedmondXP) by matthewmx86 for the theme
-
-[Windows-XP](https://github.com/B00merang-Artwork/Windows-XP) by B00merang-Artwork for icons
-
-[Winblues](https://github.com/winblues) For inspiration and reference 
+[bluexp](https://github.com/winblues/bluexp/) For inspiration and xfce-winxp-tc install script
 
 ## ISO
 
