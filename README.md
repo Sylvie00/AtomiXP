@@ -28,7 +28,9 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## Credits (WIP)
 [RedmondXP](https://github.com/matthewmx86/RedmondXP) by matthewmx86 for the theme
+
 [Windows-XP](https://github.com/B00merang-Artwork/Windows-XP) by B00merang-Artwork for icons
+
 [Winblues](https://github.com/winblues) For inspiration and reference 
 
 ## ISO
