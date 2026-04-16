@@ -45,6 +45,12 @@ modules:
         - qt6ct
         - wine-tahoma-fonts
         - menulibre
+        - gstreamer1-plugins-bad-free
+        - gstreamer1-plugins-bad-freeworld
+        - gstreamer1-plugins-ugly
+        - gstreamer1-plugin-libav
+        - ffmpeg
+
 
 
   - type: files
@@ -61,3 +67,15 @@ modules:
     system:
       enabled:
         - sddm
+
+  - type: default-flatpaks
+    notify: true
+    system:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      install:
+        - com.valvesoftware.Steam
+        - com.usebottles.bottles
+        - com.heroicgameslauncher.hgl
+        - com.vysp3r.ProtonPlus
+        - com.github.tchx84.Flatseal
