@@ -7,7 +7,7 @@ description: Experimental bluebuild image with XFCE aiming to create an "XP" lik
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
-image-version: latest # latest is also supported if you want new updates ASAP
+image-version: 43
 
 modules:
   - type: rpm-ostree
@@ -40,7 +40,7 @@ modules:
       - source: system
         destination: /
 
- # - type: script
+ #- type: script
  #   scripts:
  #     - xfceconf.sh
       
