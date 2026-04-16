@@ -37,6 +37,7 @@ modules:
         - xfce4-about
         - xfce4-appfinder
         - xfce4-settings
+        - xfce4-whiskermenu-plugin
 
 
   - type: files
