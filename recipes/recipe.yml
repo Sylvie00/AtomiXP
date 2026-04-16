@@ -24,6 +24,7 @@ modules:
       - network-manager-applet
       - thunar
       - thunar-archive-plugin
+      - lightdm
 
 
 # - type: files
