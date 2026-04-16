@@ -38,6 +38,13 @@ modules:
         - xfce4-appfinder
         - xfce4-settings
         - xfce4-whiskermenu-plugin
+        - xarchiver
+        - mate-system-monitor
+        - xscreensaver-extras
+        - xscreensaver-extras-gss
+        - qt6ct
+        - wine-tahoma-fonts
+        - menulibre
 
 
   - type: files
