@@ -17,4 +17,5 @@ RUN dnf install -y \
       sqlite-devel \
       upower-devel \
       webkit2gtk4.1-devel \
-      xcursorgen
+      xcursorgen \
+      gstreamer1

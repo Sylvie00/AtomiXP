@@ -16,3 +16,4 @@ sqlite-devel
 upower-devel
 webkit2gtk4.1-devel
 xcursorgen
+gstreamer1
