@@ -46,7 +46,14 @@ modules:
         - wine-tahoma-fonts
         - menulibre
 
-
+  - type: rpm-ostree
+    repos:
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-43.noarch.rpm
+    install:
+      - steam
+      - gamescope
+      - gamemode
+      - mangohud
 
   - type: files
     files:
