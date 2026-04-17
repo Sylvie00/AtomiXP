@@ -48,5 +48,5 @@ modules:
   - type: systemd
     system:
       enabled:
-        - sddm
+        - lightdm
         - xptc-apply
