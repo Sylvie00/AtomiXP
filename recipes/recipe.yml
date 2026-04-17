@@ -45,6 +45,7 @@ modules:
         - qt6ct
         - wine-tahoma-fonts
         - menulibre
+        - gstreamer1
 
 
 
