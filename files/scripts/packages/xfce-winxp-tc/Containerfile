@@ -19,4 +19,5 @@ RUN dnf install -y \
       webkit2gtk4.1-devel \
       xcursorgen \
       gstreamer1 \
-      gstreamer1-devel
+      gstreamer1-devel \
+      gstreamer1-plugins-base
