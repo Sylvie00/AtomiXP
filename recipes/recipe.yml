@@ -46,17 +46,16 @@ modules:
         - qt6ct
         - wine-tahoma-fonts
         - menulibre
+        - mesa-vulkan-drivers
+        - mesa-drivers
+        - mesa-libGL
 
   - type: rpm-ostree
     repos:
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-43.noarch.rpm
     install:
-      - steam
-      - gamescope
       - gamemode
       - mangohud
-      - gdk-pixbuf2.i686
-      - gtk2.i686
 
   - type: files
     files:
@@ -80,3 +79,4 @@ modules:
         scope: system
         install:
         - io.github.kolunmi.Bazaar
+        - com.valvesoftware.Steam
