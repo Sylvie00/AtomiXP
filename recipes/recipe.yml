@@ -14,6 +14,7 @@ modules:
     install:
         - xfce4-session
         - xfce4-panel
+        - xfce4-screenshooter
         - xfdesktop
         - xfwm4
         - xfconf
@@ -70,3 +71,10 @@ modules:
       enabled:
         - lightdm
         - xptc-apply
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+        - io.github.kolunmi.Bazaar

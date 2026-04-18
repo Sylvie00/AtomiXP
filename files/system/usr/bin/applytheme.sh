@@ -6,7 +6,7 @@ apply_theme() {
     local home=$(getent passwd "$user" | cut -d: -f6)
     
     # skip if already configured
-    [ -f "$home/.config/atomixp-configured" ] && return
+    [ -f "$home/.config/xfce4" ] && return
     
     mkdir -p "$home/.config/xfce4/xfconf/xfce-perchannel-xml"
     
@@ -24,12 +24,8 @@ apply_theme() {
     cp "/etc/skel/.config/autostart/WinTC Taskband.desktop" \
         "$home/.config/autostart/WinTC Taskband.desktop"
     
-    # fix ownership
     chown -R "$user:$user" "$home/.config/xfce4"
     
-    # mark as configured
-    touch "$home/.config/atomixp-configured"
-    chown "$user:$user" "$home/.config/atomixp-configured"
 }
 
 # get all human users (uid 1000+)
