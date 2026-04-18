@@ -41,6 +41,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## Credits (WIP)
 [bluexp](https://github.com/winblues/bluexp/) For inspiration and xfce-winxp-tc install script
+
 [xfce-winxp-tc](https://github.com/rozniak/xfce-winxp-tc) For theming
 
 ## ISO
