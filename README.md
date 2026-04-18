@@ -1,5 +1,18 @@
 # AtomiXP &nbsp; [![bluebuild build badge](https://github.com/sylvie00/atomixp/actions/workflows/build.yml/badge.svg)](https://github.com/sylvie00/atomixp/actions/workflows/build.yml)
 
+AtomiXP is an experimental ublue image with XFCE and the latest build of xfce-winxp-tc prebuilt. Primarily made for personal use, but you're welcome to try it. Expect bugs and X11 related issues.
+
+<img width="1280" height="800" alt="image" src="https://github.com/Sylvie00/AtomiXP/blob/main/assets/screenshot.png?raw=true" />
+
+## Features
+
+- [x] Full XP desktop, taskbar, and greeter experience out of the box (wintc-desktop disabled OOTB for better functionality, can be re-enabled by removing .disabled from the autostart entry)
+- [x] Automatic theme configuring for new and existing users rebasing from another image
+- [x] Steam and Bazaar flatpaks included
+- [ ] ISO Downloads (coming soontm)
+- [ ] Nvidia Support
+- [ ] Wayland support via labwc? (maybe)
+
 ## Installation
 
 > [!WARNING]  
@@ -28,6 +41,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## Credits (WIP)
 [bluexp](https://github.com/winblues/bluexp/) For inspiration and xfce-winxp-tc install script
+[xfce-winxp-tc](https://github.com/rozniak/xfce-winxp-tc) For theming
 
 ## ISO
 
