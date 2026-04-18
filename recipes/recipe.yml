@@ -47,7 +47,7 @@ modules:
         - wine-tahoma-fonts
         - menulibre
         - mesa-vulkan-drivers
-        - mesa-drivers
+        - mesa-dri-drivers
         - mesa-libGL
 
   - type: rpm-ostree
