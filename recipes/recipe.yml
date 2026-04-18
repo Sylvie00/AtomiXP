@@ -55,6 +55,8 @@ modules:
       - gamescope
       - gamemode
       - mangohud
+      - gdk-pixbuf2.i686
+      - gtk2.i686
 
   - type: files
     files:
