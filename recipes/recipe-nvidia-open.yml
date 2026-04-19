@@ -1,0 +1,85 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# image will be published to ghcr.io/<user>/<name>
+name: atomixp-nvidia-open
+# description will be included in the image's metadata
+description: Experimental bluebuild image with XFCE aiming to create an "XP" like experience.
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/base-main
+image-version: 43
+
+modules:
+  - type: rpm-ostree
+    install:
+        - xfce4-session
+        - xfce4-panel
+        - xfce4-screenshooter
+        - xfdesktop
+        - xfwm4
+        - xfconf
+        - xorg-x11-server-Xorg
+        - xorg-x11-xinit
+        - xorg-x11-drv-amdgpu
+        - xorg-x11-drv-libinput
+        - network-manager-applet
+        - thunar
+        - thunar-archive-plugin
+        - lightdm
+        - gtk-murrine-engine
+        - gtk2-engines
+        - pavucontrol
+        - fastfetch
+        - xfce4-terminal
+        - adwaita-gtk2-theme
+        - alsa-utils
+        - blueman
+        - gtk-xfce-engine
+        - xfce4-about
+        - xfce4-appfinder
+        - xfce4-settings
+        - xfce4-whiskermenu-plugin
+        - xarchiver
+        - mate-system-monitor
+        - xscreensaver-extras
+        - xscreensaver-extras-gss
+        - qt6ct
+        - wine-tahoma-fonts
+        - menulibre
+        - mesa-vulkan-drivers
+        - mesa-dri-drivers
+        - mesa-libGL
+
+  - type: rpm-ostree
+    repos:
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-43.noarch.rpm
+    install:
+      - gamemode
+      - mangohud
+
+  - from-file: common/nvidia-open-modules.yml
+
+  - type: files
+    files:
+     - source: system
+       destination: /
+
+  - type: script
+    scripts:
+      - os-info.sh
+      - theme.sh
+      
+  - type: systemd
+    system:
+      enabled:
+        - lightdm
+        - xptc-apply
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+        - io.github.kolunmi.Bazaar
+        - com.valvesoftware.Steam
+        - com.github.tchx84.Flatseal
