@@ -1,12 +1,12 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: atomixp
+name: atomixp-nvidia
 # description will be included in the image's metadata
 description: Experimental bluebuild image with XFCE aiming to create an "XP" like experience.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/base-main
+base-image: ghcr.io/ublue-os/nvidia-main
 image-version: 43
 
 modules:
