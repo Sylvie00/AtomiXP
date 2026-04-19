@@ -6,7 +6,7 @@ name: atomixp-nvidia
 description: Experimental bluebuild image with XFCE aiming to create an "XP" like experience.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/nvidia-main
+base-image: ghcr.io/ublue-os/base-nvidia
 image-version: 43
 
 modules:
