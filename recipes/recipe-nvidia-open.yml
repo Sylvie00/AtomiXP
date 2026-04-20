@@ -85,4 +85,4 @@ modules:
         - com.valvesoftware.Steam
         - com.github.tchx84.Flatseal
 
-    - type: initramfs
+  - type: initramfs
