@@ -37,7 +37,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   systemctl reboot
   ```
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+For nvidia cards, use "atomixp-nvidia-open:latest" in place of atomixp:latest
 
 ## Additional info
 
@@ -47,6 +47,8 @@ If you prefer to use the built in XFCE panel rather than the WinTC one, disable 
 [bluexp](https://github.com/winblues/bluexp/) For inspiration and xfce-winxp-tc install script
 
 [xfce-winxp-tc](https://github.com/rozniak/xfce-winxp-tc) For theming
+
+[RedmondXP](https://github.com/matthewmx86/RedmondXP) for the fallback theme
 
 ## ISO
 
