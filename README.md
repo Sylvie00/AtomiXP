@@ -10,7 +10,7 @@ AtomiXP is an experimental ublue image with XFCE and the latest build of xfce-wi
 - [x] Automatic theme configuring for new and existing users rebasing from another image
 - [x] Steam and Bazaar flatpaks included
 - [ ] ISO Downloads (coming soontm)
-- [ ] Nvidia Support
+- [x] Nvidia Support (atomixp-nvidia-open)
 - [ ] Wayland support via labwc? (maybe)
 
 ## Installation
