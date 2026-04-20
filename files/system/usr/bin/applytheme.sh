@@ -12,9 +12,9 @@ apply_theme() {
     
     # copy theme configs from skel
     cp /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml \
-        "$home/.config/xfce4/xfconf/xfce-perchannel-xml/"
+        "$home/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
     cp /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml \
-        "$home/.config/xfce4/xfconf/xfce-perchannel-xml/"
+        "$home/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
     cp /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml \
         "$home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
     cp /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml \
