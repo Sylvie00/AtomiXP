@@ -9,8 +9,8 @@ AtomiXP is an experimental ublue image with XFCE and the latest build of xfce-wi
 - [x] Full XP desktop, taskbar, and greeter experience out of the box (wintc-desktop disabled OOTB for better functionality, can be re-enabled by removing .disabled from the autostart entry)
 - [x] Automatic theme configuring for new and existing users rebasing from another image
 - [x] Steam and Bazaar flatpaks included
-- [ ] ISO Downloads (coming soontm)
 - [x] Nvidia Support (atomixp-nvidia-open)
+- [ ] ISO Downloads (coming soontm)
 - [ ] Wayland support via labwc? (maybe)
 
 ## Installation
@@ -38,6 +38,10 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+
+## Additional info
+
+If you prefer to use the built in XFCE panel rather than the WinTC one, disable the autostart entry for wintc-taskband. RedmondXP has been included as well if you want to keep the XP look with the original panel.
 
 ## Credits (WIP)
 [bluexp](https://github.com/winblues/bluexp/) For inspiration and xfce-winxp-tc install script
