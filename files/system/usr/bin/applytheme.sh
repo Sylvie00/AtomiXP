@@ -19,8 +19,6 @@ apply_theme() {
         "$home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
     cp /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml \
         "$home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
-    cp "/etc/skel/.config/autostart/WinTC Desktop.desktop" \
-        "$home/.config/autostart/WinTC Desktop.desktop"
     cp "/etc/skel/.config/autostart/WinTC Taskband.desktop" \
         "$home/.config/autostart/WinTC Taskband.desktop"
 
