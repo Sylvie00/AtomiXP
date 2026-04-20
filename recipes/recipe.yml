@@ -49,6 +49,7 @@ modules:
         - mesa-vulkan-drivers
         - mesa-dri-drivers
         - mesa-libGL
+        - plymouth-plugin-script
 
   - type: rpm-ostree
     repos:
@@ -81,3 +82,5 @@ modules:
         - io.github.kolunmi.Bazaar
         - com.valvesoftware.Steam
         - com.github.tchx84.Flatseal
+
+  - type: initramfs

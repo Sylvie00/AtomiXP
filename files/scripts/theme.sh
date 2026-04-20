@@ -10,3 +10,5 @@ cd xfce-winxp-tc
 bash packaging/buildall.sh
 
 rpm-ostree install xptc/*/rpm/std/x86_64/fre/wintc-*.rpm
+
+plymouth-set-default-theme bootvid
