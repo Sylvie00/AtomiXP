@@ -69,6 +69,7 @@ modules:
     scripts:
       - os-info.sh
       - theme.sh
+      - opentabletdrv.sh
       
   - type: systemd
     system:
