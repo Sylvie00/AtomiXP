@@ -7,7 +7,7 @@ AtomiXP is an experimental ublue image with XFCE and the latest build of xfce-wi
 ## Features
 
 - [x] Full XP desktop, taskbar, and greeter experience out of the box (wintc-desktop disabled OOTB for better functionality, can be re-enabled by removing .disabled from the autostart entry)
-- [x] Automatic theme configuring for new and existing users rebasing from another image
+- [x] Automatic theme configuring for new and existing users rebasing from another image (unverified atm, may be broken)
 - [x] Steam and Bazaar flatpaks included
 - [x] Nvidia Support (atomixp-nvidia-open)
 - [ ] ISO Downloads (coming soontm)
