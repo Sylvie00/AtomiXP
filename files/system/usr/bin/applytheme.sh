@@ -9,6 +9,7 @@ apply_theme() {
     [ -f "$home/.config/atomixp-configured" ] && return
     
     mkdir -p "$home/.config/xfce4/xfconf/xfce-perchannel-xml"
+    mkdir -p "$home/.config/autostart"
     
     # copy theme configs from skel
     cp /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml \
@@ -25,6 +26,7 @@ apply_theme() {
         "$home/.config/autostart/WinTC Taskband.desktop"
 
     chown -R "$user:$user" "$home/.config/xfce4"
+    chown -R "$user:$user" "$home/.config/autostart"
     touch "$home/.config/atomixp-configured"
     chown "$user:$user" "$home/.config/atomixp-configured"
 }
