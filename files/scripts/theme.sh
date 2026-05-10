@@ -15,6 +15,6 @@ rpm-ostree install xptc/*/rpm/std/x86_64/fre/wintc-*.rpm
 plymouth-set-default-theme bootvid
 
 #install RedmondXP as an alternative theme
-git clone https://github.com/phush0/redmondxp.git /tmp/redmondxp
+git clone https://github.com/matthewmx86/RedmondXP.git /tmp/redmondxp
 mkdir -p /usr/share/themes
 cp -r /tmp/redmondxp/RedmondXP /usr/share/themes/
