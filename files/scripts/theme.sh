@@ -18,4 +18,4 @@ plymouth-set-default-theme bootvid
 mkdir /tmp/redmondxp
 git clone https://github.com/matthewmx86/RedmondXP.git /tmp/redmondxp
 mkdir -p /usr/share/themes
-cp -r /tmp/redmondxp/RedmondXP /usr/share/themes/
+cp -r /tmp/redmondxp/ /usr/share/themes/
